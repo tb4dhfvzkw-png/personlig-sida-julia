@@ -1,0 +1,186 @@
+﻿Diagnose log at 2026-10-14T08:32:16Z
+
+AppPath: C:\Users\Julia\AppData\Local\Programs\Git\ucrt64\bin\git-credential-manager.exe
+InstallDir: C:\Users\Julia\AppData\Local\Programs\Git\ucrt64\bin\
+Version: 2.9.1+6760f0ef069c994aa2bb1d703fb374986ee82a3e
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 170 Stepping 4, GenuineIntel
+OnlineServices=Online Services
+PROCESSOR_ARCHITECTURE=AMD64
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+EFC_9456_4126798990=0
+VSCODE_CWD=C:\Users\Julia\AppData\Local\Programs\Antigravity IDE
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-4NHSKK7
+PROCESSOR_REVISION=aa04
+ANTIGRAVITY_SOURCE_METADATA={"tool":{"conversationId":"bc3a8205-4ee5-4938-9c56-1128703f0c3a","stepIndex":143,"toolCall":{"id":"call_664462","name":"run_command","argumentsJson":"{\"CommandLine\":\"$env:Path = \\\"$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\cmd;$env:LOCALAPPDATA\\\\Programs\\\\Git\\\\ucrt64\\\\bin;$env:Path\\\"\\ngit-credential-manager diagnose\",\"Cwd\":\"c:\\\\Users\\\\Julia\\\\OneDrive - Reach for the Stars AB\\\\Skrivbordet\\\\ihm-julia-alvarsson\",\"WaitMsBeforeAsync\":5000,\"toolAction\":\"Running GCM diagnose\",\"toolSummary\":\"GCM diagnose\"}","thinkingSignature":"EuIHCt8HAWkUfRNK5Vdt6BgI9lDXFY8xh1+kYIX0EKbOML6vUlFnlTO/eOBEbOnWAN3UfKghosuxOQdQrDCbAM4NYaySWEbLtp1DqKmN/K8c1PAu6gwR8Ah4GmZ1IgDIYl7nF0s9M3nzeN7A83qtV4+NwvxxuZLb/THr9p5K6AAGmHfxjTnbzoS4OXVBJRHTmwDZFP4/2xB/fY/Axnqt9d5LcDKYUguok8DU/JANE4fphYpd0ypEFPmCq5Nn/a52H/RRfk4R9WBD6HbBK0Ni6+Pnrh7JsCvVkQnCAL/SHrvwisvKKwQ9WxQ6s+IZ2c3tEICAdXyJKubEtltBmRI2amfwVaNuwrCn+m/g8N4+kwcpBSU3/jRMN9Xp74t1tJGgIloNY/pCjANX3mVjI7OHZ3X21lPPd8J1tcv4c9VY0qd1rOosL4E6d9wjPIyuELYX1IZWv78VdvqqGiNlGpQX9QRK0S3M/JtIWfYBNAQ3fUeySd5m8sQ+QvypphBX1haEGVd1C8yRA52UeAXYneveuVAsPc/JXJzl1hCwWutKO0V5FmwGuoiva9IblV0PRob1JIVkIbCa8X68ZAzX8Om6x8kX6Aaj2w2WB0SOz1Tb8+nnGBqSXaIuWY29ypanyO/3x+sX5y5VFraXO9Rv6mrXIb//YLByOvmaC1z0e0Bl+HDfO5Q06oFwYd2Pzzwqoqh6uqsFYY74x8pW/pSCB0YDZYdciVO4I8youP11lRvUqswuDfUQMW1P1HaE+VUVEf5tttbWSCMajEHqrf+fhOdY8lJavA7vnsTCp3w3O6oTYFssvo4hD6gdK6BwL1aJMEEvc3vrmxq8xXEq0ajJgwpb5HOrtZskXbDja13XkR5xC+XqS7LVE0/ZSwhSoTdcBAYhqtth+/ZhbK9L8xNc7OibdYK2yqAW4GOZNZViHSizXZhhJW4voblClp+/CEr5Rn1iDyE0Kva25cBvMXCmmnGN3nuQZIB9/S5VIHU8ywSe9svNQtr7YNogmcsTEX2Te+kJSHAfZbxy2YwW+sygU8VlfSn0XrzX2DkX7y81Cgf7lS1ukUTo49GYTvXqMFSYEUYQH734o1L3GHKOZMDdWVDuNvtkW1lbTnEX4QIlxtlJMS4VnqUoiGiUnokK9jRFtmqHYZKwNfO6xWkSmP4Xj73F9z1xR4oh7EZs4gav2Ld0nsFQLooMy1cN3anB/GZouC0XkZDUxR2v1S15yfnlu1KM1xfVHDqGnbVGwSZplKMklQL2BlKkHDHu160gNgvI2/g2mHl5bhjYhtM2J/Ll7fU9s+bIGxToF8TlvPftJul2I1Pg5V7qiA==","originalName":"run_command"}}}
+TEMP=C:\Users\Julia\AppData\Local\Temp
+USERPROFILE=C:\Users\Julia
+LOGONSERVER=\\DESKTOP-4NHSKK7
+USERNAME=Julia
+SystemRoot=C:\windows
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_31844_CJXIRQEYAYJOHOMJ
+PATH=C:\Users\Julia\AppData\Local\Programs\Git\cmd;C:\Users\Julia\AppData\Local\Programs\Git\ucrt64\bin;C:/Users/Julia/.gemini/antigravity-ide/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\Julia\AppData\Local\Microsoft\WindowsApps;C:\Users\Julia\AppData\Local\Programs\Antigravity IDE\bin
+OneDrive=C:\Users\Julia\OneDrive - Reach for the Stars AB
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramFiles=C:\Program Files\Common Files
+ANTIGRAVITY_TRAJECTORY_ID=a06c7fff-c16a-4a6a-9548-7aca4b895ac4
+ANTIGRAVITY_LS_ADDRESS=localhost:64873
+ProgramData=C:\ProgramData
+platformcode=AN
+HOMEPATH=\Users\Julia
+COMPUTERNAME=DESKTOP-4NHSKK7
+VSCODE_CODE_CACHE_PATH=C:\Users\Julia\AppData\Roaming\Antigravity IDE\CachedData\ecfbad74d93962fc8ca485d93ab9b4f3d4cb6cf8
+ANTIGRAVITY_SAFECLIS_SOURCE=C:/Users/Julia/.gemini/antigravity-ide/bin/safeclis/src
+ANTIGRAVITY_AGENT=1
+CommonProgramW6432=C:\Program Files\Common Files
+OneDriveCommercial=C:\Users\Julia\OneDrive - Reach for the Stars AB
+TMP=C:\Users\Julia\AppData\Local\Temp
+VSCODE_IPC_HOOK=\\.\pipe\1342aade-1.107.0-main-sock
+DriverData=C:\Windows\System32\Drivers\DriverData
+EFC_9456_1592913036=1
+VSCODE_PID=31844
+windir=C:\windows
+GIT_TRACE2_PARENT_SID=36d7044e-33cc-495e-b826-8a0d0b5927e1
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=14
+OS=Windows_NT
+ZES_ENABLE_SYSMAN=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\windows\system32\cmd.exe
+HOMEDRIVE=C:
+PSModulePath=C:\Users\Julia\OneDrive - Reach for the Stars AB\Dokument\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+ANTIGRAVITY_CSRF_TOKEN=5a25a967-4e2f-46f5-9372-4c1d530e3456
+ANTIGRAVITY_CONVERSATION_ID=bc3a8205-4ee5-4938-9c56-1128703f0c3a
+APPDATA=C:\Users\Julia\AppData\Roaming
+USERDOMAIN=DESKTOP-4NHSKK7
+PROCESSOR_LEVEL=6
+ANTIGRAVITY_EDITOR_APP_ROOT=c:\Users\Julia\AppData\Local\Programs\Antigravity IDE\resources\app
+LOCALAPPDATA=C:\Users\Julia\AppData\Local
+VSCODE_NLS_CONFIG={"userLocale":"en-us","osLocale":"sv-se","resolvedLanguage":"en","defaultMessagesFile":"C:\\Users\\Julia\\AppData\\Local\\Programs\\Antigravity IDE\\resources\\app\\out\\nls.messages.json","locale":"en-us","availableLanguages":{}}
+ANTIGRAVITY_AGENTAPI_EXE=c:\Users\Julia\AppData\Local\Programs\Antigravity IDE\resources\app\extensions\antigravity\bin\language_server_windows_x64.exe
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+RegionCode=EMEA
+PUBLIC=C:\Users\Public
+ANTIGRAVITY_LS_VERSION=ide-2.4.5
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Julia\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Julia\AppData\Local\Temp\f707492ab99866e7d1c4e6b4'... OK
+Reading from temporary file 'C:\Users\Julia\AppData\Local\Temp\f707492ab99866e7d1c4e6b4'... OK
+Deleting temporary file 'C:\Users\Julia\AppData\Local\Temp\f707492ab99866e7d1c4e6b4'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Julia
+UserDataDirectoryPath: C:\Users\Julia\.gcm
+GetCurrentDirectory(): C:\Users\Julia\OneDrive - Reach for the Stars AB\Skrivbordet\ihm-julia-alvarsson
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:54962/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.56.0.windows.2'
+Locating current repository...Git repository at 'C:/Users/Julia/OneDrive - Reach for the Stars AB/Skrivbordet/ihm-julia-alvarsson/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	core.symlinks=false
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	core.fscache=true
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	color.interactive=true
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	color.ui=auto
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	help.format=html
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	rebase.autosquash=true
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Users/Julia/AppData/Local/Programs/Git/etc/gitconfig	credential.helper=manager
+file:C:/Users/Julia/.gitconfig	user.name=Julia Alvarsson
+file:C:/Users/Julia/.gitconfig	user.email=Julia.Alvarsson@outlook.com
+file:C:/Users/Julia/.gitconfig	credential.helper=manager
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/tb4dhfvzkw-png/personlig-sida-julia.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Julia\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Julia\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

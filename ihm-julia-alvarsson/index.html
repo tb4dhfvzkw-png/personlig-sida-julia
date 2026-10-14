@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Julia Alvarsson - Digital Marketing Specialist i Göteborg. Jag hjälper småföretag och startups med SEO, digital marknadsföring, sociala medier och webbansvar.">
+    <meta name="keywords"
+        content="Julia Alvarsson, Digital Marketing Specialist, SEO Göteborg, Digital marknadsföring, IHM Business School, Webbansvarig">
+    <meta name="author" content="Julia Alvarsson">
+
+    <title>Julia Alvarsson - Digital Marketing Specialist</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon (SVG med rosa tema) -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23db2777'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='48' fill='white'>JA</text></svg>">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#" class="brand-wrapper" aria-label="Julia Alvarsson - Till toppen">
+                <div class="brand-avatar">JA</div>
+                <div>
+                    <h1>Julia Alvarsson</h1>
+                    <p class="roll">Digital Marketing Specialist i Göteborg</p>
+                </div>
+            </a>
+
+            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Växla meny" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav id="nav-meny" aria-label="Huvudmeny">
+                <ul>
+                    <li><a href="#om">Om mig</a></li>
+                    <li><a href="#tjanster">Vad jag gör</a></li>
+                    <li><a href="#verktyg">Verktyg</a></li>
+                    <li><a href="#projekt">Projekt</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                <span>Digital Marketing Specialist · IHM Göteborg</span>
+            </div>
+
+            <h2>Jag hjälper småföretag och startups att bli <span class="gradient-text">hittade och valda</span> online
+            </h2>
+
+            <p class="hero-meta">
+                <span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <a href="mailto:Julia.Alvarsson@outlook.com">Julia.Alvarsson@outlook.com</a>
+                </span>
+                <span class="dot-separator">·</span>
+                <span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                    <a href="tel:0709748412">070-974 84 12</a>
+                </span>
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#kontakt" class="btn btn-primary">
+                    Boka ett samtal
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="#projekt" class="btn btn-secondary">Se mina projekt</a>
+            </div>
+
+            <div class="hero-stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon" aria-hidden="true">🎓</div>
+                    <div>
+                        <h3>IHM Business School</h3>
+                        <p>Specialisering inom Digital Marketing i Göteborg</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" aria-hidden="true">📈</div>
+                    <div>
+                        <h3>SEO &amp; Söksynlighet</h3>
+                        <p>Sökordsanalys, Google profil och on-page optimering</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" aria-hidden="true">🎯</div>
+                    <div>
+                        <h3>Mätbara resultat</h3>
+                        <p>Strategier anpassade för startups och tillväxtbolag</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Om mig Section -->
+        <section id="om">
+            <div class="about-container">
+                <div class="about-image-wrapper">
+                    <div class="about-image-card">
+                        <img src="img/crop-hand-drawing-digital-marketing-plan.jpg" alt="Digital marknadsföringsplan"
+                            width="400" height="400">
+                        <div class="about-image-badge">
+                            <span>●</span> IHM Business School Göteborg
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-eyebrow">Bakgrund &amp; Profil</span>
+                    <h2>Om mig</h2>
+                    <p class="lead-bio">Jag utbildar mig till Digital Marketing Specialist på IHM Business School i
+                        Göteborg och brinner för att hjälpa småföretag och startups att växa online.</p>
+
+                    <p id="mer">Jag gillar särskilt att jobba med SEO, webbansvar och digital marknadsföring för att
+                        skapa mätbara resultat och bra synlighet.</p>
+
+                    <button type="button" id="visa-mer" aria-expanded="false">Visa mer</button>
+
+                    <div class="skills-tags">
+                        <span class="skill-tag">SEO &amp; Sökordsanalys</span>
+                        <span class="skill-tag">Google Företagsprofil</span>
+                        <span class="skill-tag">Sociala Medier</span>
+                        <span class="skill-tag">Innehållsstrategi</span>
+                        <span class="skill-tag">Webbansvar &amp; UX</span>
+                        <span class="skill-tag">Konverteringsoptimering</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vad jag gör Section -->
+        <section id="tjanster">
+            <div class="services-header">
+                <span class="section-eyebrow">Kompetenser &amp; Tjänster</span>
+                <h2>Vad jag gör</h2>
+                <p class="section-intro">Ett genomtänkt och praktiskt arbetssätt som kombinerar teknisk synlighet med
+                    engagerande innehåll för långsiktig tillväxt.</p>
+            </div>
+
+            <ul>
+                <li>
+                    <div class="service-icon-box" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            <line x1="11" y1="8" x2="11" y2="14"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </div>
+                    <h3>Synas i sök (SEO)</h3>
+                    <p>Sökordsanalys, On-page SEO och en Google-profil som lockar till klick.</p>
+                </li>
+                <li>
+                    <div class="service-icon-box" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 2L11 13"></path>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Digital marknadsföring &amp; Sociala medier</h3>
+                    <p>Innehållsplan och kampanjer som passar målgruppen och budgeten.</p>
+                </li>
+                <li>
+                    <div class="service-icon-box" aria-hidden="true">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Webbansvarig</h3>
+                    <p>Strukturera webbplatsen för bättre användarupplevelse och konvertering.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Verktyg & System Section -->
+        <section id="verktyg">
+            <div class="services-header">
+                <span class="section-eyebrow">Verktygslåda</span>
+                <h2>Verktyg &amp; System</h2>
+                <p class="section-intro">Digitala verktyg och plattformar som jag använder för att analysera data, driva
+                    kampanjer och optimera webbplatser.</p>
+            </div>
+
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">📊</div>
+                    <div class="tool-info">
+                        <h3>Google Analytics 4 (GA4)</h3>
+                        <p>Webbanalys, spårning av användarbeteende och uppföljning av konverteringar.</p>
+                        <span class="tool-badge">Analys &amp; Data</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">🔍</div>
+                    <div class="tool-info">
+                        <h3>Google Search Console</h3>
+                        <p>Sökordsplaceringar, indexeringsstatus och teknisk On-page kontroll.</p>
+                        <span class="tool-badge">Sökoptimering</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">🚀</div>
+                    <div class="tool-info">
+                        <h3>Semrush &amp; SEO-analys</h3>
+                        <p>Sökordsvolym, konkurrentbevakning och strategisk analys.</p>
+                        <span class="tool-badge">SEO &amp; Research</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">📱</div>
+                    <div class="tool-info">
+                        <h3>Meta Ads Manager</h3>
+                        <p>Kampanjer på Instagram och Facebook, målgruppsanpassning och budgetering.</p>
+                        <span class="tool-badge">Betald annonsering</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">🎨</div>
+                    <div class="tool-info">
+                        <h3>Canva &amp; Figma</h3>
+                        <p>Visuellt material, grafik för sociala medier samt webblayout &amp; prototyper.</p>
+                        <span class="tool-badge">Design &amp; Kreativt</span>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon" aria-hidden="true">💻</div>
+                    <div class="tool-info">
+                        <h3>WordPress, HTML &amp; CSS</h3>
+                        <p>Webbplatsstrukturering, publicering i CMS och grundläggande kodning.</p>
+                        <span class="tool-badge">Webb &amp; CMS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projekt Section -->
+        <section id="projekt">
+            <div class="projects-header">
+                <span class="section-eyebrow">Portfolio &amp; Case</span>
+                <h2>Projekt</h2>
+                <p class="section-intro">Ett urval av mina arbeten och kursuppgifter från utbildningen på IHM Business
+                    School.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article>
+                    <div class="project-img-wrapper">
+                        <img src="img/crop-hand-drawing-digital-marketing-plan.jpg" alt="Digital marknadsföringsplan"
+                            width="600" height="400">
+                        <span class="project-tag-badge">Lokal SEO</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Lokal synlighet för ett företag</h3>
+                        <p>Kursuppgift på IHM: plan för Google-profil och sökord för lokal synlighet i Göteborg.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">Google Profil</span>
+                            <span class="project-pill">Sökordsanalys</span>
+                            <span class="project-pill">Göteborg</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-img-wrapper">
+                        <img src="img/ihm-bild.png" alt="IHM Business School" width="600" height="400">
+                        <span class="project-tag-badge">Innehållsplan</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Innehållsplan för digital marknadsföring</h3>
+                        <p>Kursuppgift: strategi, kanaler och inläggsplanering för ökad räckvidd.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">Strategi</span>
+                            <span class="project-pill">Sociala Medier</span>
+                            <span class="project-pill">IHM Case</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-banner-styled">
+                        <div class="project-banner-icon" aria-hidden="true">💻</div>
+                        <span class="project-tag-badge">Frontend Webb</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Den här sajten</h3>
+                        <p>Handkodad med HTML, CSS och JavaScript under utbildningen på IHM Business School.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">HTML5</span>
+                            <span class="project-pill">CSS3 &amp; Flex/Grid</span>
+                            <span class="project-pill">JavaScript ES6</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- FAQ Section (Accordion) -->
+        <section id="faq">
+            <div class="services-header">
+                <span class="section-eyebrow">Frågor &amp; Svar</span>
+                <h2>Vanliga frågor</h2>
+                <p class="section-intro">Svar på några vanliga frågor kring mina kompetenser, arbetssätt och
+                    tillgänglighet.</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        <span>Vad innebär en lokal SEO-optimering?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Lokal SEO hjälper ditt företag att synas när kunder i Göteborg söker efter dina tjänster. Det
+                            innefattar optimering av Google Företagsprofil (Google Business Profile), lokala sökord på
+                            webbplatsen samt säkerställande av att kontaktuppgifter och recensioner är strukturerade på
+                            rätt sätt.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        <span>Hur mäter och följer du upp resultat?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vi sätter upp tydliga KPI:er i förväg. Med verktyg som Google Analytics 4 och Search Console
+                            mäter jag organisk trafik, sökordsrankingar, klickfrekvens (CTR) och faktiska konverteringar
+                            (som kontaktförfrågningar eller köp).</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        <span>När är du tillgänglig för LIA-praktik eller uppdrag?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Jag studerar på IHM Business School i Göteborg och är öppen för LIA-praktikplatser samt
+                            projektuppdrag. Hör gärna av dig så bokar vi ett kort möte för att se hur jag kan bidra till
+                            ert team!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        <span>Hur ser processen ut för att ta fram en innehållsplan?</span>
+                        <span class="faq-icon" aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Vi utgår från din målgrupp och era affärsmål. Därefter väljer vi ut relevanta kanaler och tar
+                            fram en månadsvis innehållskalender med teman, bild-/videoidéer, texter och planerade
+                            publiceringstider för jämn och engagerande närvaro.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kontakt Section -->
+        <section id="kontakt">
+            <div class="contact-card-wrapper">
+                <div class="contact-info-col">
+                    <span class="section-eyebrow">Hör av dig</span>
+                    <h2>Kontakt</h2>
+                    <p>Vill du veta mer? Mejla mig, ring eller skicka ett meddelande direkt via formuläret. Jag ser fram
+                        emot att prata om potentiella samarbeten, LIA-praktik eller hur vi kan stärka er digitala
+                        närvaro.</p>
+
+                    <div class="contact-badge-note">
+                        <span class="status-dot"></span> Svarar vanligtvis inom 24 timmar
+                    </div>
+
+                    <!-- Direktkontakt-lista -->
+                    <div class="contact-direct-list">
+                        <!-- E-post med kopiera-knapp -->
+                        <div class="contact-method-item">
+                            <div class="contact-method-content">
+                                <div class="contact-method-icon" aria-hidden="true">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-method-text">
+                                    <div class="label">E-post</div>
+                                    <p><a href="mailto:Julia.Alvarsson@outlook.com">Julia.Alvarsson@outlook.com</a></p>
+                                </div>
+                            </div>
+                            <button type="button" id="kopiera">Kopiera mejladress</button>
+                        </div>
+
+                        <!-- Telefon -->
+                        <div class="contact-method-item">
+                            <div class="contact-method-content">
+                                <div class="contact-method-icon" aria-hidden="true">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="contact-method-text">
+                                    <div class="label">Telefon</div>
+                                    <p><a href="tel:0709748412">070-974 84 12</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn länk -->
+                        <div class="contact-method-item">
+                            <div class="contact-method-content">
+                                <div class="contact-method-icon" aria-hidden="true">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-method-text">
+                                    <div class="label">LinkedIn</div>
+                                    <p><a href="https://www.linkedin.com/in/julia-alvarsson" target="_blank"
+                                            rel="noopener noreferrer">Julia Alvarsson på LinkedIn ↗</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interaktivt Kontaktformulär -->
+                <div class="contact-form-wrapper">
+                    <h3>Skicka ett meddelande</h3>
+                    <p class="form-intro-text">Fyll i formuläret så återkommer jag inom kort.</p>
+
+                    <form id="kontakt-form" novalidate>
+                        <div class="form-group">
+                            <label for="kontakt-namn">Ditt namn <span class="required-star">*</span></label>
+                            <input type="text" id="kontakt-namn" name="namn" placeholder="T.ex. Anna Svensson" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kontakt-epost">Din e-postadress <span class="required-star">*</span></label>
+                            <input type="email" id="kontakt-epost" name="epost" placeholder="namn@foretag.se" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kontakt-amne">Vad gäller förfrågan?</label>
+                            <select id="kontakt-amne" name="amne">
+                                <option value="seo">SEO &amp; Söksynlighet</option>
+                                <option value="some">Sociala medier &amp; Kampanjer</option>
+                                <option value="lia">LIA-praktik eller samarbete</option>
+                                <option value="webb">Webbansvar &amp; UX</option>
+                                <option value="ovrigt">Övrigt</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kontakt-meddelande">Meddelande <span class="required-star">*</span></label>
+                            <textarea id="kontakt-meddelande" name="meddelande" rows="4"
+                                placeholder="Beskriv kort vad du vill ha hjälp med..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            Skicka meddelande
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+
+                        <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2026 Julia Alvarsson · Byggd för hand med HTML, CSS och JavaScript</p>
+            <a href="#" class="footer-top-link" aria-label="Till toppen av sidan">
+                Till toppen ↑
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
