@@ -215,3 +215,5 @@ footer { background: #faf3f5; }
   #cookiebanner .c-header { font-size: 1.6rem !important; }
   #cookiebanner .c-button { width: 100% !important; }
 }
+
+#cookiebanner { opacity: 1 !important; }
