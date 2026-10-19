@@ -381,6 +381,21 @@ main > section:first-of-type h2 {
   display: inline-block;
 }
 
+.hero-intro {
+  max-width: 680px;
+  margin: 24px auto;
+  color: var(--text-body);
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.email-help {
+  margin-top: 20px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
 .hero-meta {
   font-size: 1.05rem;
   color: var(--text-muted);

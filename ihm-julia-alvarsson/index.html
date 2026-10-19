@@ -4,6 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cookiebot -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e10c9c3e-3ad0-40fd-a41d-1f39f4f92a9d"
+        data-blockingmode="auto" type="text/javascript"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TZFLP359');</script>
+    <!-- End Google Tag Manager -->
     <meta name="description"
         content="Julia Alvarsson - Digital Marketing Specialist i Göteborg. Jag hjälper småföretag och startups med SEO, digital marknadsföring, sociala medier och webbansvar.">
     <meta name="keywords"
@@ -16,7 +31,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&family=Cormorant+Garamond:ital,wght@1,400;1,500&display=swap"
         rel="stylesheet">
 
     <!-- Favicon (SVG med rosa tema) -->
@@ -24,9 +39,14 @@
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23db2777'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='48' fill='white'>JA</text></svg>">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="editorial.css">
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TZFLP359" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="header-container">
             <a href="#" class="brand-wrapper" aria-label="Julia Alvarsson - Till toppen">
@@ -47,25 +67,31 @@
                 <ul>
                     <li><a href="#om">Om mig</a></li>
                     <li><a href="#tjanster">Vad jag gör</a></li>
-                    <li><a href="#verktyg">Verktyg</a></li>
                     <li><a href="#projekt">Projekt</a></li>
-                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#utbildning">Utbildning</a></li>
+                    <li><a href="#verktyg">Verktyg</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
     <main>
         <!-- Hero Section -->
         <section class="hero-section">
+            <div class="hero-copy">
             <div class="hero-badge">
                 <span class="status-dot"></span>
-                <span>Digital Marketing Specialist · IHM Göteborg</span>
+                <span>Studerar Digital Marketing · IHM Göteborg</span>
             </div>
 
-            <h2>Jag hjälper småföretag och startups att bli <span class="gradient-text">hittade och valda</span> online
+            <h2>Jag hjälper småföretag att bli<br class="hero-break"> <span class="gradient-text">hittade och valda</span> online.
             </h2>
+
+            <p class="hero-intro">Jag heter Julia och utbildar mig till Digital Marketing Specialist på IHM i Göteborg.
+                Här visar jag mina projekt inom SEO, innehåll och webb. Jag är öppen för LIA-praktik och projektuppdrag.
+            </p>
 
             <p class="hero-meta">
                 <span>
@@ -90,7 +116,7 @@
 
             <div class="hero-buttons">
                 <a href="#kontakt" class="btn btn-primary">
-                    Boka ett samtal
+                    Kontakta mig
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <line x1="5" y1="12" x2="19" y2="12"></line>
@@ -100,6 +126,7 @@
                 <a href="#projekt" class="btn btn-secondary">Se mina projekt</a>
             </div>
 
+            </div>
             <div class="hero-stats-grid">
                 <div class="stat-card">
                     <div class="stat-icon" aria-hidden="true">🎓</div>
@@ -140,14 +167,16 @@
 
                 <div class="about-content">
                     <span class="section-eyebrow">Bakgrund &amp; Profil</span>
-                    <h2>Om mig</h2>
+                    <h2>Om mig — <em>Julia.</em></h2>
                     <p class="lead-bio">Jag utbildar mig till Digital Marketing Specialist på IHM Business School i
                         Göteborg och brinner för att hjälpa småföretag och startups att växa online.</p>
 
-                    <p id="mer">Jag gillar särskilt att jobba med SEO, webbansvar och digital marknadsföring för att
-                        skapa mätbara resultat och bra synlighet.</p>
+                    <p>Jag gillar särskilt kombinationen av SEO, innehåll och webb: att förstå vad människor söker efter
+                        och göra det enkelt att hitta rätt. I mina kursprojekt får jag omsätta det jag lär mig i
+                        praktiken.</p>
 
-                    <button type="button" id="visa-mer" aria-expanded="false">Visa mer</button>
+                    <p>Jag söker möjligheter att utvecklas genom LIA-praktik och projektuppdrag.
+                        Vill du prata om hur jag kan bidra hos er? <a href="#kontakt">Hör gärna av dig.</a></p>
 
                     <div class="skills-tags">
                         <span class="skill-tag">SEO &amp; Sökordsanalys</span>
@@ -207,6 +236,159 @@
                     <p>Strukturera webbplatsen för bättre användarupplevelse och konvertering.</p>
                 </li>
             </ul>
+        </section>
+
+        <!-- Projekt Section -->
+        <section id="projekt">
+            <div class="projects-header">
+                <span class="section-eyebrow">Portfolio &amp; Case</span>
+                <h2>Utvalda <em>projekt.</em></h2>
+                <p class="section-intro">Ett urval av mina arbeten och kursuppgifter från utbildningen på IHM Business
+                    School.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article>
+                    <div class="project-img-wrapper">
+                        <img src="img/crop-hand-drawing-digital-marketing-plan.jpg" alt="Digital marknadsföringsplan"
+                            width="600" height="400">
+                        <span class="project-tag-badge">Lokal SEO</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Lokal synlighet för ett företag</h3>
+                        <p>En kursuppgift på IHM med fokus på hur ett företag kan bli lättare att hitta lokalt i
+                            Göteborg.</p>
+                        <p><strong>Arbetet:</strong> En plan för Google Företagsprofil och lokala sökord.</p>
+                        <p><strong>Syftet:</strong> Att koppla företagets erbjudande till det potentiella kunder söker
+                            efter.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">Google Profil</span>
+                            <span class="project-pill">Sökordsanalys</span>
+                            <span class="project-pill">Göteborg</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-img-wrapper">
+                        <img src="img/ihm-bild.png" alt="IHM Business School" width="600" height="400">
+                        <span class="project-tag-badge">Innehållsplan</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Innehållsplan för digital marknadsföring</h3>
+                        <p>En kursuppgift om att skapa struktur i ett företags digitala kommunikation.</p>
+                        <p><strong>Arbetet:</strong> Strategi, kanalval och planering av inlägg.</p>
+                        <p><strong>Syftet:</strong> Att samla innehållet i en tydlig plan med ökad räckvidd som mål.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">Strategi</span>
+                            <span class="project-pill">Sociala Medier</span>
+                            <span class="project-pill">IHM Case</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="project-banner-styled">
+                        <div class="project-banner-icon" aria-hidden="true">💻</div>
+                        <span class="project-tag-badge">Frontend Webb</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Den här sajten</h3>
+                        <p>Min egen portfolio, handkodad under utbildningen på IHM Business School.</p>
+                        <p><strong>Arbetet:</strong> Sidstruktur i HTML, formgivning i CSS och interaktioner i
+                            JavaScript.</p>
+                        <p><strong>På sidan:</strong> Mobilmeny, utfällbara frågor och möjlighet att kopiera min
+                            mejladress.</p>
+                        <div class="project-pills">
+                            <span class="project-pill">HTML5</span>
+                            <span class="project-pill">CSS3 &amp; Flex/Grid</span>
+                            <span class="project-pill">JavaScript ES6</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Utbildningsresa -->
+        <section id="utbildning" aria-labelledby="utbildning-title">
+            <div class="services-header">
+                <span class="section-eyebrow">IHM Business School · 2026–2027</span>
+                <h2 id="utbildning-title">Min <em>utbildningsresa.</em></h2>
+                <p class="section-intro">Från marknadsföringens grunder till digitala kanaler och analys. Här är kurserna i min utbildningsplan hittills. Klicka på en kurs för att se perioder och poäng.</p>
+            </div>
+            <div class="course-grid">
+                <details class="course-card" data-periods='[{"start":"2026-08-17","end":"2026-10-11"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">01</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">Marknadsföring</span>
+                        <span class="course-footer"><span>20 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperiod</h3><ul><li><span class="course-dates"><time datetime="2026-08-17">17 aug–11 okt 2026</time></span><span>Vecka 34–41 · 20 p · delfart</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[{"start":"2026-08-31","end":"2026-09-13"},{"start":"2026-10-26","end":"2026-11-01"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">02</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">Karriärplanering</span>
+                        <span class="course-footer"><span>10 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperioder</h3><ul><li><span class="course-dates"><time datetime="2026-08-31">31 aug–13 sep 2026</time></span><span>Vecka 36–37 · 5 p · halvfart</span></li><li><span class="course-dates"><time datetime="2026-10-26">26 okt–1 nov 2026</time></span><span>Vecka 44 · 5 p</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[{"start":"2026-09-14","end":"2026-10-25"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">03</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">AI och tech för digitala marknadsförare</span>
+                        <span class="course-footer"><span>25 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperiod</h3><ul><li><span class="course-dates"><time datetime="2026-09-14">14 sep–25 okt 2026</time></span><span>Vecka 38–43 · 25 p · delfart</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[{"start":"2026-11-02","end":"2026-11-22"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">04</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">Sökmotoroptimering</span>
+                        <span class="course-footer"><span>15 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperiod</h3><ul><li><span class="course-dates"><time datetime="2026-11-02">2–22 nov 2026</time></span><span>Vecka 45–47 · 15 p</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[{"start":"2026-11-23","end":"2026-12-20"},{"start":"2027-01-04","end":"2027-01-10"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">05</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">Paid Media – Social och SEM</span>
+                        <span class="course-footer"><span>25 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperioder</h3><ul><li><span class="course-dates"><time datetime="2026-11-23">23 nov–20 dec 2026</time></span><span>Vecka 48–51 · 20 p</span></li><li><span class="course-dates"><time datetime="2027-01-04">4–10 jan 2027</time></span><span>Vecka 1 · 5 p</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[{"start":"2027-01-11","end":"2027-01-31"}]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">06</span><span class="course-status">Se kursperioder</span></span>
+                        <span class="course-name">Content och influencer marketing</span>
+                        <span class="course-footer"><span>15 p</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <h3>Kursperiod</h3><ul><li><span class="course-dates"><time datetime="2027-01-11">11–31 jan 2027</time></span><span>Vecka 2–4 · 15 p</span></li></ul>
+                    </div>
+                </details>
+                <details class="course-card" data-periods='[]'>
+                    <summary>
+                        <span class="course-topline"><span class="course-number">07</span><span class="course-status">Datum kommer</span></span>
+                        <span class="course-name">Tracking och digital analys</span>
+                        <span class="course-footer"><span>Poäng kommer</span><span class="course-toggle"><span class="course-open-label">Visa kurs</span><span class="course-close-label">Stäng</span> <span aria-hidden="true">＋</span></span></span>
+                    </summary>
+                    <div class="course-content">
+                        <p>Datum och poäng läggs till när uppgifterna finns tillgängliga.</p>
+                    </div>
+                </details>
+            </div>
+            <p class="course-note">Status följer kursdatumen. Avslutad kursperiod innebär att perioden har passerat, inte att ett betyg är registrerat.</p>
         </section>
 
         <!-- Verktyg & System Section -->
@@ -272,67 +454,6 @@
                         <span class="tool-badge">Webb &amp; CMS</span>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Projekt Section -->
-        <section id="projekt">
-            <div class="projects-header">
-                <span class="section-eyebrow">Portfolio &amp; Case</span>
-                <h2>Projekt</h2>
-                <p class="section-intro">Ett urval av mina arbeten och kursuppgifter från utbildningen på IHM Business
-                    School.</p>
-            </div>
-
-            <div class="projects-grid">
-                <article>
-                    <div class="project-img-wrapper">
-                        <img src="img/crop-hand-drawing-digital-marketing-plan.jpg" alt="Digital marknadsföringsplan"
-                            width="600" height="400">
-                        <span class="project-tag-badge">Lokal SEO</span>
-                    </div>
-                    <div class="project-body">
-                        <h3>Lokal synlighet för ett företag</h3>
-                        <p>Kursuppgift på IHM: plan för Google-profil och sökord för lokal synlighet i Göteborg.</p>
-                        <div class="project-pills">
-                            <span class="project-pill">Google Profil</span>
-                            <span class="project-pill">Sökordsanalys</span>
-                            <span class="project-pill">Göteborg</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="project-img-wrapper">
-                        <img src="img/ihm-bild.png" alt="IHM Business School" width="600" height="400">
-                        <span class="project-tag-badge">Innehållsplan</span>
-                    </div>
-                    <div class="project-body">
-                        <h3>Innehållsplan för digital marknadsföring</h3>
-                        <p>Kursuppgift: strategi, kanaler och inläggsplanering för ökad räckvidd.</p>
-                        <div class="project-pills">
-                            <span class="project-pill">Strategi</span>
-                            <span class="project-pill">Sociala Medier</span>
-                            <span class="project-pill">IHM Case</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article>
-                    <div class="project-banner-styled">
-                        <div class="project-banner-icon" aria-hidden="true">💻</div>
-                        <span class="project-tag-badge">Frontend Webb</span>
-                    </div>
-                    <div class="project-body">
-                        <h3>Den här sajten</h3>
-                        <p>Handkodad med HTML, CSS och JavaScript under utbildningen på IHM Business School.</p>
-                        <div class="project-pills">
-                            <span class="project-pill">HTML5</span>
-                            <span class="project-pill">CSS3 &amp; Flex/Grid</span>
-                            <span class="project-pill">JavaScript ES6</span>
-                        </div>
-                    </div>
-                </article>
             </div>
         </section>
 
@@ -402,8 +523,8 @@
             <div class="contact-card-wrapper">
                 <div class="contact-info-col">
                     <span class="section-eyebrow">Hör av dig</span>
-                    <h2>Kontakt</h2>
-                    <p>Vill du veta mer? Mejla mig, ring eller skicka ett meddelande direkt via formuläret. Jag ser fram
+                    <h2>Låt oss <em>höras.</em></h2>
+                    <p>Vill du veta mer? Mejla mig eller ring. Jag ser fram
                         emot att prata om potentiella samarbeten, LIA-praktik eller hur vi kan stärka er digitala
                         närvaro.</p>
 
@@ -474,50 +595,13 @@
                     </div>
                 </div>
 
-                <!-- Interaktivt Kontaktformulär -->
                 <div class="contact-form-wrapper">
-                    <h3>Skicka ett meddelande</h3>
-                    <p class="form-intro-text">Fyll i formuläret så återkommer jag inom kort.</p>
-
-                    <form id="kontakt-form" novalidate>
-                        <div class="form-group">
-                            <label for="kontakt-namn">Ditt namn <span class="required-star">*</span></label>
-                            <input type="text" id="kontakt-namn" name="namn" placeholder="T.ex. Anna Svensson" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="kontakt-epost">Din e-postadress <span class="required-star">*</span></label>
-                            <input type="email" id="kontakt-epost" name="epost" placeholder="namn@foretag.se" required>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="kontakt-amne">Vad gäller förfrågan?</label>
-                            <select id="kontakt-amne" name="amne">
-                                <option value="seo">SEO &amp; Söksynlighet</option>
-                                <option value="some">Sociala medier &amp; Kampanjer</option>
-                                <option value="lia">LIA-praktik eller samarbete</option>
-                                <option value="webb">Webbansvar &amp; UX</option>
-                                <option value="ovrigt">Övrigt</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="kontakt-meddelande">Meddelande <span class="required-star">*</span></label>
-                            <textarea id="kontakt-meddelande" name="meddelande" rows="4"
-                                placeholder="Beskriv kort vad du vill ha hjälp med..." required></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary btn-submit">
-                            Skicka meddelande
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                                <line x1="22" y1="2" x2="11" y2="13"></line>
-                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                            </svg>
-                        </button>
-
-                        <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
-                    </form>
+                    <h3>Berätta vad du har i tankarna</h3>
+                    <p class="form-intro-text">Söker ni en LIA-praktikant eller vill du prata om ett projekt?
+                        Skriv gärna några rader om företaget, vad du behöver hjälp med och vilken period det gäller.</p>
+                    <a href="mailto:Julia.Alvarsson@outlook.com" class="btn btn-primary">Mejla Julia</a>
+                    <p class="email-help">Länken öppnar ditt mejlprogram. Du kan också kopiera mejladressen här bredvid
+                        och använda den i din vanliga mejltjänst.</p>
                 </div>
             </div>
         </section>
@@ -533,6 +617,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="courses.js"></script>
 </body>
 
 </html>
