@@ -148,3 +148,70 @@ footer { background: #faf3f5; }
 @media (max-width: 1024px) { .course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) { .course-grid { grid-template-columns: 1fr; } .course-name { min-height: 0; } }
 @media (prefers-reduced-motion: reduce) { .course-toggle > [aria-hidden] { transition: none; } }
+
+/* Style the existing Cookiebot banner without changing consent behaviour. */
+#cookiebanner {
+  box-sizing: border-box !important;
+  position: fixed !important;
+  inset: auto 24px 24px auto !important;
+  width: min(560px, calc(100vw - 48px)) !important;
+  max-height: calc(100dvh - 48px) !important;
+  overflow-y: auto !important;
+  padding: 28px !important;
+  background: #fffafc !important;
+  color: #50454d !important;
+  border: 1px solid #e7c8d7 !important;
+  border-top: 5px solid #dca1bb !important;
+  border-radius: 24px !important;
+  box-shadow: 0 16px 60px rgba(70, 36, 55, .18) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  text-align: left !important;
+}
+#cookiebanner #c-left, #cookiebanner #c-right {
+  float: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#cookiebanner .c-header {
+  font-family: 'Italiana', Georgia, serif !important;
+  font-size: 1.9rem !important;
+  line-height: 1.2 !important;
+  text-transform: none !important;
+  font-weight: 400 !important;
+  color: #302630 !important;
+  margin: 0 0 14px !important;
+}
+#cookiebanner .c-message {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: .875rem !important;
+  line-height: 1.7 !important;
+  color: #50454d !important;
+  margin: 0 !important;
+}
+#cookiebanner #c-right { margin-top: 22px !important; text-align: right !important; }
+#cookiebanner .c-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 120px !important;
+  min-height: 44px !important;
+  padding: 12px 28px !important;
+  margin: 0 !important;
+  border: 1px solid #a53768 !important;
+  border-radius: 100px !important;
+  background: #a53768 !important;
+  color: #fff !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: .9rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+#cookiebanner .c-button:hover { background: #81254e !important; }
+#cookiebanner .c-button:focus-visible { outline: 3px solid #81254e !important; outline-offset: 4px !important; }
+@media (max-width: 600px) {
+  #cookiebanner { inset: auto 12px 12px 12px !important; width: auto !important; max-height: calc(100dvh - 24px) !important; padding: 22px !important; border-radius: 20px !important; }
+  #cookiebanner .c-header { font-size: 1.6rem !important; }
+  #cookiebanner .c-button { width: 100% !important; }
+}
